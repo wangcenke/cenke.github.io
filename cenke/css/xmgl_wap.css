@@ -23,7 +23,7 @@ header a {
     width: 100%;
     height: 2.175rem;
     background: #f0f1f5;
-    border: .025rem solid #dddddd;
+    border-bottom: .025rem solid #dddddd;
     position: relative;
 }
 #search {
