@@ -30,7 +30,7 @@ header {
 
 header p {
 	width: 84%;
-	display: block;
+	display: inline-block;
 }
 
 header a {
@@ -124,7 +124,7 @@ header a {
 
 .row1 li {
 	flex: 1;
-	display: block;
+	display: inline-block;
 }
 
 .row2 {
@@ -133,7 +133,7 @@ header a {
 }
 
 .row2 li {
-	display: block;
+	display: inline-block;
 	flex: 1;
 }
 
