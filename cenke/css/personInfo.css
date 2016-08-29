@@ -30,10 +30,12 @@ header {
 
 header p {
 	width: 84%;
+	display: block;
 }
 
 header a {
 	width: 8%;
+	display: block;
 }
 
 
@@ -122,6 +124,7 @@ header a {
 
 .row1 li {
 	flex: 1;
+	display: block;
 }
 
 .row2 {
@@ -130,6 +133,7 @@ header a {
 }
 
 .row2 li {
+	display: block;
 	flex: 1;
 }
 
