@@ -142,7 +142,7 @@ header a {
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	-ms-flex: 1;
-	/*display: inline-block;*/
+	display: inline-block;
 }
 
 .row2 {
@@ -152,12 +152,12 @@ header a {
 }
 
 .row2 li {
-	/*display: inline-block;*/
 	flex: 1;
 	/* for uc */
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
 	-ms-flex: 1;
+	display: inline-block;
 }
 
 
