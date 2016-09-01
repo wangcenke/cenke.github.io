@@ -16,17 +16,13 @@ header {
     line-height: 1.875rem;
     color: #ffffff;
 }
-header .return {
-	display: inline-block;
-	width: 8%;
-}
-header .more {
-	display: inline-block;
-	width: 8%;
-}
 header p {
     display: inline-block;
     width: 84%;
+}
+header a {
+	display: inline-block;
+	/*width: 8%;*/
 }
 /*搜索条*/
 .search_main {
