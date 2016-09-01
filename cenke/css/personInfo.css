@@ -24,18 +24,19 @@ header {
 	font-size: 0.725rem;
 	text-align: center;
 	background: #12b7f5;
-	display: flex;
 	color: #ffffff;
+	display: flex;
+	display: -webkit-flex;
 }
 
 header p {
 	width: 84%;
-	display: inline-block;
+	/*display: inline-block;*/
 }
 
 header a {
 	width: 8%;
-	display: block;
+	/*display: block;*/
 }
 
 
