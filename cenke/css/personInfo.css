@@ -138,6 +138,7 @@ header a {
 
 .row1 li {
 	flex: 1;
+	-webkit-flex: 1;
 	/* for uc */
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
@@ -153,6 +154,7 @@ header a {
 
 .row2 li {
 	flex: 1;
+	-webkit-flex: 1;
 	/* for uc */
 	-webkit-box-flex: 1;
 	-moz-box-flex: 1;
