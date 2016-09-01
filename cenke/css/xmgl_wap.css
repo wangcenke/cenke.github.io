@@ -107,8 +107,7 @@ header a {
 .info_single {
 	width: 14.75rem;
 	height: 2.75rem;
-	/*margin-bottom: ;*/
-	/*border-bottom: .025rem solid #E3E3E3;*/
+	margin-top: .35rem ;
 }
 
 .info_single ul li {
