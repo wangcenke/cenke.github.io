@@ -25,26 +25,17 @@ header {
 	text-align: center;
 	background: #12b7f5;
 	color: #ffffff;
-	display: flex;
-	display: -webkit-flex;
+	/*display: flex;*/
 }
 
 header p {
 	width: 84%;
-	/*display: inline-block;*/
-	/* for uc */
-	-webkit-box-flex: 1;
-	-moz-box-flex: 1;
-	-ms-flex: 1;
+	display: inline-block;
 }
 
 header a {
-	width: 8%;
-	/*display: block;*/
-	/* for uc */
-	-webkit-box-flex: 1;
-	-moz-box-flex: 1;
-	-ms-flex: 1;
+	/*width: 8%;*/
+	display: inline-block;
 }
 
 
@@ -141,22 +132,32 @@ header a {
 
 .row1 {
 	display: flex;
+	display: -webkit-flex;
 	margin-top: .5rem;
 }
 
 .row1 li {
 	flex: 1;
-	display: inline-block;
+	/* for uc */
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-flex: 1;
+	/*display: inline-block;*/
 }
 
 .row2 {
 	display: flex;
+	display: -webkit-flex;
 	margin-top: .5rem;
 }
 
 .row2 li {
-	display: inline-block;
+	/*display: inline-block;*/
 	flex: 1;
+	/* for uc */
+	-webkit-box-flex: 1;
+	-moz-box-flex: 1;
+	-ms-flex: 1;
 }
 
 
