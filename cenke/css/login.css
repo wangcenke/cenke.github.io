@@ -1,0 +1,65 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+body {
+	background: #FFFFFF;
+}
+
+/*logo*/
+
+.logo figure {
+	width: 100%;
+	height: 4.7rem;
+	text-align: center;
+	margin-top: 1.25rem;
+	position: relative;
+}
+.logo figure img {
+	display: inline-block;
+	width: 6.575rem;
+	height: 3.275rem;
+}
+.logo figure p {
+	font-size: .725rem;
+	color: #666666;
+}
+.logo .close {
+	width: .85rem;
+	height: .85rem;
+	position: absolute;
+	top: .425rem;
+	left: .625rem;
+}
+
+/*登陆信息*/
+
+.login {
+	width: 14.75rem;
+	margin: 0 auto;
+}
+.login input {
+	width: 14.75rem;
+	height: 2.15rem;
+	line-height: 2.15rem;
+	border-bottom: .05rem solid #eff1f4;
+	display: block;
+	font-size: .555rem;
+	color: #353535;
+}
+
+
+
+
+
+.圆角矩形_1 {
+	border-radius: 5px;
+	background-color: rgb(18, 183, 245);
+	position: absolute;
+	left: 25px;
+	top: 500px;
+	width: 590px;
+	height: 87px;
+	z-index: 18;
+}
