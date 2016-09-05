@@ -41,10 +41,8 @@ header a {
 }
 .project ul li {
 	width: 5.1rem;
-	/*height: 5.35rem;*/
 	text-align: center;
 	display: inline-block;
-	/*background: red;*/
 	font-size: .597rem;
 	color: #7d7d7e;
 
@@ -84,8 +82,12 @@ header a {
 } 
 .waiting p:nth-of-type(2) {
 	float: right;
-	text-indent: -1rem;
+	text-indent: -1.2rem;
 }
+.waiting p:nth-of-type(2) span {
+	color: #ff8176;
+}
+
 /*footer*/
 footer {
 	width: 100%;
