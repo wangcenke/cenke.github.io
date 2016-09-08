@@ -32,7 +32,7 @@ header a {
 }
 /*项目布局*/
 .project {
-	height: 23.65rem;
+	height: 23.75rem;
 	border-bottom: .05rem solid #e2e5eb;
 }
 .project ul li:nth-child(2) {
@@ -70,7 +70,6 @@ header a {
 .waiting img {
 	width: .8rem;
 	height: .775rem;
-	/*display: inline-block;*/
 	float: left;
 	position: absolute;
 	top: .5rem;
