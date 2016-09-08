@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+		<link rel="stylesheet" href="img/jquery.mobile-1.4.5.css" />
+		<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.mobile-1.4.5.js" type="text/javascript" charset="utf-8"></script>
+		<title>test</title>
+		
+	</head>
+
+	<body>
+		<div data-role="page" id="pagetwo">
+			<div data-role="panel" id="mypanel">
+				<h2>面板头部</h2>
+				<p>和哈哈哈哈哈哈</p>
+			</div>
+			<div data-role="header">
+				<h1>欢迎来到我的主页</h1>
+				<div data-role="navbar" data-iconpos="left">
+					<ul>
+						<li>
+							<a href="#" class="ui-btn-active" data-icon="home">首页</a>
+						</li>
+						<li>
+							<a href="#" data-icon="arrow-r">第二页</a>
+						</li>
+						<li>
+							<a href="#" data-icon="search">搜索</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div data-role="main" class="ui-content">
+
+				<ul data-role="listview">
+					<li>
+						<a href="#"><img src="img/clock.png" class="ui-li-icon" />哈哈哈哈哈哈哈哈哈和</a>
+					</li>
+					<li>
+						<a href="#">收件箱<span class="ui-li-count">25</span></a>
+					</li>
+					<li>
+						<a href="#">哈哈哈哈哈哈哈哈哈和</a>
+					</li>
+
+				</ul>
+
+				<ol data-role="listview" data-inset="true">
+					<li>
+						<a href="#">收件箱<span class="ui-li-count">25</span></a>
+					</li>
+					<li>
+						<a href="#">发件箱<span class="ui-li-count">10</span></a>
+					</li>
+					<li>
+						<a href="#">垃圾箱<span class="ui-li-count">201</span></a>
+					</li>
+				</ol>
+				<form action="l23.html" method="post">
+					<div class="ui-field-contain">
+					<label for="fname">姓名： </label>
+					<input type="text" name="fname" id="fname" data-clear-btn="true" placeholder="请填写姓名" />
+					<label for="lname">姓名： </label>
+					<input type="text" name="lname" id="lname" data-clear-btn="true" />
+					</div>
+					<input type="submit" data-inline="true" value="提交" />
+				</form>
+				<div data-role="collapsible-set">
+					<div data-role="collapsible">
+						<h1>点我——我是可折叠内容</h1>
+						<p>test折叠哈哈哈哈哈哈哈哈哈和</p>
+					</div>
+					<div data-role="collapsible">
+						<h1>点我——我是可折叠内容</h1>
+						<p>test折叠哈哈哈哈哈哈哈哈哈和</p>
+					</div>
+					<div data-role="collapsible">
+						<h1>点我——我是可折叠内容</h1>
+						<p>test折叠哈哈哈哈哈哈哈哈哈和</p>
+					</div>
+					<div data-role="collapsible">
+						<h1>点我——我是可折叠内容</h1>
+						<p>test折叠哈哈哈哈哈哈哈哈哈和</p>
+					</div>
+
+				</div>
+				<p>点我打开面板</p>
+				<a href="#mypanel" class="ui-btn ui-btn-inline ui-btn-corner-all ui-shadow">打开面板</a>
+				<p>点我跳转到第一页</p>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-left" data-inline="true">跳转第一页</a>
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#" data-role="button">按钮组</a>
+					<a href="#" data-role="button">按钮组</a>
+					<a href="#" data-role="button">按钮组</a>
+				</div>
+				<div data-role="controlgroup" data-type="vertical">
+					<a href="#" data-role="button">按钮组</a>
+					<a href="#" data-role="button">按钮组</a>
+					<a href="#" data-role="button">按钮组</a>
+				</div>
+			</div>
+			<a href="#mypopup" data-rel="popup" data-position-to="window" class="ui-btn ui-btn-corner-all ui-btn-inline">点击弹窗</a>
+			<div data-role="popup" id="mypopup" class="ui-content" data-arrow="l" data-overlay-theme="b">
+				<h1>标题党</h1>
+				<p style="font-size: 2rem;color: yellow;">简单的弹窗</p>
+				<a href="#" data-rel="back" class="ui-btn ui-icon-delete ui-btn-icon-notext ui-btn-right ui-btn-corner-all ui-shadow">关闭</a>
+			</div>
+			<div data-role="footer" style="text-align: center;">
+				<div data-role="controlgroup" data-type="horizontal">
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">在Facebook上关注我</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">在Twitter上关注我</a>
+					<a href="#" class="ui-btn ui-corner-all ui-shadow ui-icon-plus ui-btn-icon-left">在Instagram上关注我</a>
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>
