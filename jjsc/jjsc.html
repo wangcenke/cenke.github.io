@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0">
+		<link rel="stylesheet" href="css/jjsc_wap_maser.css" />
+		<link rel="stylesheet" type="text/css" href="css/flexslider.css" />
+		<title>尖叫商城</title>
+	</head>
+
+	<body>
+		<header>
+			<a class="header_back" href="javascript:void(0);"><img src="images/header_back.png" /></a>
+			<p>高级定制</p>
+		</header>
+		<div class="flexslider" style="width:7.2rem;">
+			<ul class="slides">
+				<li>
+					<a href="javascript:void(0);"><img src="images/jjsc_lunbo01.png" /></a>
+				</li>
+				<li>
+					<a href="javascript:void(0);"><img src="images/jjsc_lunbo02.png" /></a>
+				</li>
+				<li>
+					<a href="javascript:void(0);"><img src="images/jjsc_lunbo03.png" /></a>
+				</li>
+				<li>
+					<a href="javascript:void(0);"><img src="images/jjsc_lunbo04.png" /></a>
+				</li>
+				<li>
+					<a href="javascript:void(0);"><img src="images/jjsc_lunbo05.png" /></a>
+				</li>
+			</ul>
+		</div>
+		<script src="js/wap_size_js.js"></script>
+		<script src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(".flexslider").flexslider({
+					slideshowSpeed: 2000, //展示时间间隔ms
+					animationSpeed: 400, //滚动时间ms
+					touch: true //是否支持触屏滑动
+				});
+			});
+		</script>
+	</body>
+
+</html>

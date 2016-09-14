@@ -10,25 +10,56 @@
 		<title>test2</title>
 	</head>
 
-
 	<body>
 		<div data-role="page">
 			<div data-role="header">
 				<h1>我的主页</h1>
 			</div>
 			<div data-role="main" class="ui-content">
-				<form action="abc.html" method="post">
+				<form action="index.html" method="post">
 					<div class="ui-field-contain">
 						<label for="fullname">全名： </label>
-						<input type="text" id="fullname" name="fullname"/>
+						<input type="text" id="fullname" name="fullname" />
 						<label for="bday">生日： </label>
 						<input type="date" id="bday" name="bday" />
 						<label for="email">E-mail: </label>
 						<input type="email" id="email" name="email" placeholder="请输入邮箱" />
-						
+						<label for="search">搜索： </label>
+						<input type="search" id="search" name="search" placeholder="请输入搜索内容" />
 					</div>
-					<input type="submit" value="" />
-				</form>
+					<input type="submit" value="提交" />
+					<fieldset data-role="controlgroup" data-type="horizontal">
+						<legend>请选择您的性别： </legend>
+						<label for="male">男性</label>
+						<input type="radio" id="male" name="gender" value="male" checked />
+						<label for="female">女性</label>
+						<input type="radio" id="female" name="gender" value="female" />
+					</fieldset>
+					<fieldset data-role="controlgroup" data-type="horizontal">
+						<legend>Choose as many favorite colors as you'd like:</legend>
+						<label for="red">Red</label>
+						<input type="checkbox" name="favcolor" id="red" value="red">
+						<label for="green">Green</label>
+						<input type="checkbox" name="favcolor" id="green" value="green">
+						<label for="blue">Blue</label>
+						<input type="checkbox" name="favcolor" id="blue" value="blue">
+					</fieldset>
+					
+					<a href="#myPopup" data-rel="popup" class="ui-btn ui-btn-inline ui-corner-all ui-icon-check ui-btn-icon-left">弹窗中使用表单</a>
+					<div data-role="popup" data-position-to = "window" id="myPopup" class="ui-content" style="min-width:250px;">
+						<form method="post" action="demoform.php">
+							<div>
+								<h3>登录信息</h3>
+								<label for="usrnm" class="ui-hidden-accessible">用户名:</label>
+								<input type="text" name="user" id="usrnm" placeholder="用户名">
+								<label for="pswd" class="ui-hidden-accessible">密码:</label>
+								<input type="password" name="passw" id="pswd" placeholder="密码">
+								<label for="log">保存登录</label>
+								<input type="checkbox" name="login" id="log" value="1" data-mini="true">
+								<input type="submit" data-inline="true" value="登录">
+							</div>
+						</form>
+					</div>
 			</div>
 			<div data-role="footer">
 				<h1>页面底部</h1>
