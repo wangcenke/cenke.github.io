@@ -98,10 +98,10 @@ nav .filter img {
 .main-content {
 	width: 6.72rem;
 	margin: 0 auto;
-	background: #FFFFFF;
 }
 .main-content .single {
 	margin-top: .24rem;
+	background: #FFFFFF;
 }
 .single > img {
 	width: 6.72rem;
